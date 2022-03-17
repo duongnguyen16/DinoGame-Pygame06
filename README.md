@@ -26,8 +26,8 @@
 - [x] Đầy đủ sound giống như ở bản gốc (100 coins / dead sound)
 - [x] 6 trạng thái của khủng long (ngoài dino1 và dino2)
 - [x] Personal best! (Điểm cao nhất)
-- [ ] \(Optional)Sáng/tối trong game (cần sử dụng alpha)
-- [ ] \(Optional)File Save người chơi (highest score)
+- [ ] \(Optional) Sáng/tối trong game (cần sử dụng alpha)
+- [ ] \(Optional) File Save người chơi (highest score)
 
 **3.Bugs:**<br />
 ~~Nhảy lỗi khi giữ phím [S] (cúi xuống) và [Space] (nhảy lên) làm cho Sprite trượt khỏi khung hình~~<br />
