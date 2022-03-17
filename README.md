@@ -29,15 +29,14 @@
 - [ ] File Save người chơi (highest score)
 
 **3.Bugs:**
-- ~~~Nhảy lỗi khi giữ phím [S] (cúi xuống) và [Space] (nhảy lên) làm cho Sprite trượt khỏi khung hình 
-- ~~~Quán tính lỗi
-- ~~~Lặp sound khi chạm vào vật thể
+- ~~~Nhảy lỗi khi giữ phím [S] (cúi xuống) và [Space] (nhảy lên) làm cho Sprite trượt khỏi khung hình ~~~
+- ~~~Quán tính lỗi~~~
+- ~~~Lặp sound khi chạm vào vật thể~~~
 
 **4. Sources:**
 - Asset: https://github.com/codewmax/chrome-dinosaur/tree/master/Assets
 - Sound: Me
 ### Preview:
-![Preview 1](https://i.ibb.co/k6pKRQt/image.png)
 ![Preview 2](https://i.ibb.co/7NrK5Wr/image.png)
 ![Preview 3](https://i.ibb.co/hRXwWRW/image.png)
 ![Preview 4](https://i.ibb.co/ZXtPPrZ/image.png)
