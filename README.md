@@ -33,7 +33,6 @@
 ~~Nhảy lỗi khi giữ phím [S] (cúi xuống) và [Space] (nhảy lên) làm cho Sprite trượt khỏi khung hình~~<br />
 ~~Quán tính lỗi~~<br />
 ~~Lặp sound khi chạm vào vật thể~~<br />
-~~Seed lặp lại khi restart game~~<br />
 
 **4. Sources:**
 - Asset: https://github.com/codewmax/chrome-dinosaur/tree/master/Assets

@@ -7,6 +7,7 @@ pygame.init()
 clock = pygame.time.Clock()
 
 game_seed = random.randrange(1, 1000000, 1) * random.randrange(1, 1000000, 1)
+print("[Dino] Game Seed:" + str(game_seed))
 random.seed(game_seed)
 
 w, h = 800, 400
@@ -15,7 +16,7 @@ game_display = pygame.display.set_mode((w, h))
 screen = pygame.surface.Surface((w, h))
 
 # mac oc optimize
-pygame.display.set_caption("Duong Nguyen Xuan - PYGAME06 (Dino Project Final)")
+pygame.display.set_caption("Duong Nguyen Xuan - PYGAME07 (Dino Project Final)")
 
 RED = pygame.color.Color("red")
 GREEN = pygame.color.Color("green")
@@ -351,6 +352,8 @@ while True:
         reset = False
         show_hg = False
         fps = 60
+        game_seed = random.randrange(1, 1000000, 1) * random.randrange(1, 1000000, 1)
+        print("[Dino] Game Seed:" + str(game_seed))
 
     print_state()
     # print(f"Player:{len(player_gr) }- Obs:{len(obs_gr)} - Cloud:{len(cloud_gr)}")
