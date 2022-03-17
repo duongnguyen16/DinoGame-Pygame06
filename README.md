@@ -1,7 +1,7 @@
 # Dino Project (PYGAME 06)
-** For educational purposes, not for economic purposes **<br />
-** Language: Vi **<br />
-** Preview at the end of this post **<br />
+** For educational purposes, not for economic purposes **
+** Language: Vi **
+** Preview at the end of this post **
 ## Giới thiệu:
 - Dino Game là một tựa game được tích hợp trong Chrome ở trường hợp không có kết nối internet
 - Tựa game gốc (chỉ mở ở Chrome hoặc ít nhất là những ứng dụng dùng nhân Chromium): [Dino Game](chrome://dino)
@@ -29,7 +29,7 @@
 - [ ] \(Optional)Sáng/tối trong game (cần sử dụng alpha)
 - [ ] \(Optional)File Save người chơi (highest score)
 
-**3.Bugs:**
+**3.Bugs:**<br />
 ~~Nhảy lỗi khi giữ phím [S] (cúi xuống) và [Space] (nhảy lên) làm cho Sprite trượt khỏi khung hình~~<br />
 ~~Quán tính lỗi~~<br />
 ~~Lặp sound khi chạm vào vật thể~~<br />
