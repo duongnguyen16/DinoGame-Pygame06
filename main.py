@@ -156,12 +156,12 @@ class Player(pygame.sprite.Sprite):
         # print(f"Rect.y {self.rect.y} - Vel: {self.vel} - Jump_State: {self.jump_state} - id: {self.id}")
 
         hit = pygame.sprite.spritecollide(self, obs_gr, False)
-        if hit:
+        if hit and not self.game_over:
             self.game_over = True
-        if self.game_over == True:
+        if self.game_over == True and not player.state == "die":
             self.state = "die"
-            self.lose_sound =True
-        if self.lose_sound :
+            self.lose_sound = True
+        if self.lose_sound:
             pygame.mixer.Sound.play(die_sound)
             pygame.mixer.music.stop()
             self.lose_sound = False
