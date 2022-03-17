@@ -1,7 +1,7 @@
 # Dino Project (PYGAME 06)
-** For educational purposes, not for economic purposes **
-** Language: Vi **
-** Preview at the end of this post **
+> For educational purposes, not for economic purposes **
+> Language: Vi **
+> Preview at the end of this post **
 ## Giới thiệu:
 - Dino Game là một tựa game được tích hợp trong Chrome ở trường hợp không có kết nối internet
 - Tựa game gốc (chỉ mở ở Chrome hoặc ít nhất là những ứng dụng dùng nhân Chromium): [Dino Game](chrome://dino)
