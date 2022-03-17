@@ -13,7 +13,7 @@
 - [x] Nhảy lên cao nếu ấn phím [Space] (thêm sử dụng phím [W] và [UP])
 - [x] Hạ xuống trước khi nhảy
 - [x] Cây xương rồng tạo ra và di chuyển liên tiếp (obstacle.png trong ./Asset/obstacle)
-- [x] Phát âm thanh (đặt tên là pip.mp3) khi con khủng long chạm vào cây xương rồng.
+- [x] Phát âm thanh khi con khủng long chạm vào cây xương rồng.
 
 **2.Chức năng thêm:**
 - [x] Seed (các ngẫu nhiên trong game dựa trên 1 seed)
