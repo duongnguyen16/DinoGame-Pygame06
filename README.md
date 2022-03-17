@@ -26,13 +26,13 @@
 - [x] Đầy đủ sound giống như ở bản gốc (100 coins / dead sound)
 - [x] 6 trạng thái của khủng long (ngoài dino1 và dino2)
 - [x] Personal best! (Điểm cao nhất)
-- [ ] Sáng/tối trong game (cần sử dụng alpha)
-- [ ] File Save người chơi (highest score)
+- [ ] \(Optional)Sáng/tối trong game (cần sử dụng alpha)
+- [ ] \(Optional)File Save người chơi (highest score)
 
 **3.Bugs:**
-~~~Nhảy lỗi khi giữ phím [S] (cúi xuống) và [Space] (nhảy lên) làm cho Sprite trượt khỏi khung hình~~~
-~~~Quán tính lỗi~~~
-~~~Lặp sound khi chạm vào vật thể~~~
+~~Nhảy lỗi khi giữ phím [S] (cúi xuống) và [Space] (nhảy lên) làm cho Sprite trượt khỏi khung hình~~
+~~Quán tính lỗi~~
+~~Lặp sound khi chạm vào vật thể~~
 
 **4. Sources:**
 - Asset: https://github.com/codewmax/chrome-dinosaur/tree/master/Assets
