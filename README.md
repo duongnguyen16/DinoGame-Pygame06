@@ -1,4 +1,4 @@
-# Dino Project (Pygame06)
+# Dino Project (Pygame07)
 > For educational purposes, not for economic purposes<br />
 > Language: Vi<br />
 > Preview at the end of this post<br />
