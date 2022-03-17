@@ -143,7 +143,7 @@ class Player(pygame.sprite.Sprite):
             if key[pygame.K_s] or key[pygame.K_LSHIFT] or key[pygame.K_DOWN]:
                 if not self.state == "duck" and self.jump_state == 0:
                     self.state = "duck"
-                    print("Duck!")
+                    #print("Duck!")
 
         if self.state == "jump" and self.jump_state != 0:
             if self.jump_state == 1:
@@ -296,7 +296,7 @@ while True:
     if player.score % 100 == 0 and not player.score == 0:
         pygame.mixer.Sound.play(coins_sound)
         pygame.mixer.music.stop()
-    print(f"{fps} - Real: {int(clock.get_fps())}")
+    #print(f"{fps} - Real: {int(clock.get_fps())}")
     game_over = player.game_over
     current = pygame.time.get_ticks()
 
