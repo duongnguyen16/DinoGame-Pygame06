@@ -5,6 +5,7 @@
 ## Giới thiệu:
 - Dino Game là một tựa game được tích hợp trong Chrome ở trường hợp không có kết nối internet
 - Tựa game gốc (chỉ mở ở Chrome hoặc ít nhất là những ứng dụng dùng nhân Chromium): [Dino Game](chrome://dino)
+- 
 ![Preview](https://i.ibb.co/k6pKRQt/image.png)
 ### Yêu cầu:
 **1.Theo bài cô:**
@@ -29,9 +30,9 @@
 - [ ] File Save người chơi (highest score)
 
 **3.Bugs:**
-- ~~~Nhảy lỗi khi giữ phím [S] (cúi xuống) và [Space] (nhảy lên) làm cho Sprite trượt khỏi khung hình ~~~
-- ~~~Quán tính lỗi~~~
-- ~~~Lặp sound khi chạm vào vật thể~~~
+~~~Nhảy lỗi khi giữ phím [S] (cúi xuống) và [Space] (nhảy lên) làm cho Sprite trượt khỏi khung hình~~~
+~~~Quán tính lỗi~~~
+~~~Lặp sound khi chạm vào vật thể~~~
 
 **4. Sources:**
 - Asset: https://github.com/codewmax/chrome-dinosaur/tree/master/Assets
