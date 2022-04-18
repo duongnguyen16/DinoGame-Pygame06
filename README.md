@@ -6,7 +6,7 @@
 - Dino Game là một tựa game được tích hợp trong Chrome ở trường hợp không có kết nối internet
 - Tựa game gốc (chỉ mở ở Chrome hoặc ít nhất là những ứng dụng dùng nhân Chromium): [Dino Game](chrome://dino)
 
-![Preview](https://i.ibb.co/k6pKRQt/image.png)
+![Preview] Đang gặp lỗi, sẽ sửa trong thời gian tới
 ### Yêu cầu:
 **1.Theo bài cô:**
 - [x] Thay đổi 2 ảnh liên tiếp của khủng long (dino1.png và dino2.png trong ./Asset/dino)
@@ -38,6 +38,4 @@
 - Asset: https://github.com/codewmax/chrome-dinosaur/tree/master/Assets
 - Sound: Me
 ### Preview:
-![Preview 2](https://i.ibb.co/7NrK5Wr/image.png)
-![Preview 3](https://i.ibb.co/hRXwWRW/image.png)
-![Preview 4](https://i.ibb.co/ZXtPPrZ/image.png)
+Fixing
