@@ -8,6 +8,10 @@
 
 ![Preview] Đang gặp lỗi, sẽ sửa trong thời gian tới
 ### Yêu cầu:
+
+**0. Cập nhật ngày 20/4/2022:**
+- [x] File lưu tiến trùnh người chơi (highest score)
+
 **1.Theo bài cô:**
 - [x] Thay đổi 2 ảnh liên tiếp của khủng long (dino1.png và dino2.png trong ./Asset/dino)
 - [x] Nhảy lên cao nếu ấn phím [Space] (thêm sử dụng phím [W] và [UP])
@@ -26,8 +30,8 @@
 - [x] Đầy đủ sound giống như ở bản gốc (100 coins / dead sound)
 - [x] 6 trạng thái của khủng long (ngoài dino1 và dino2)
 - [x] Personal best! (Điểm cao nhất)
+- [x] File lưu tiến trùnh người chơi (highest score)
 - [ ] \(Optional) Sáng/tối trong game (cần sử dụng alpha)
-- [ ] \(Optional) File Save người chơi (highest score)
 - [ ] Cải tiến nhảy của khủng long (Theo dao dộng điều hoà)
 
 **3.Bugs:**<br />
