@@ -1,6 +1,23 @@
 # code by duong nguyen
 import pygame, sys, random
+import json
 from pygame.locals import *
+
+save_game_file = open("save-game.json", "r", encoding = "utf-8")
+save_game = json.load(save_game_file)
+
+def high_score_sync(score):
+    hs = save_game['high_score']
+    print(f"[SYNC] High Score input: {score} - from file: {hs}")
+    if hs < score:
+        save_game['high_score'] = int(score)
+        save_game_replace = open("./save-game.json", "w", encoding="utf-8")
+        json.dump(save_game, save_game_replace, ensure_ascii= False)
+
+
+
+def get_high_score():
+    return save_game['high_score']
 
 pygame.init()
 
@@ -21,7 +38,7 @@ pygame.display.set_caption("Duong Nguyen Xuan - PYGAME07 (Dino Project Final)")
 RED = pygame.color.Color("red")
 GREEN = pygame.color.Color("green")
 
-high_score = 0
+high_score = get_high_score()
 
 FONT_COLOR = (112, 112, 112)
 
@@ -175,7 +192,7 @@ class Player(pygame.sprite.Sprite):
         print_screen(str(int(self.score)).rjust(7, "0"), 30, 680, 17)
 
 
-player = Player(0, game_seed)
+player = Player(get_high_score(), game_seed)
 
 player_gr = pygame.sprite.Group()
 player_gr.add(player)
@@ -281,7 +298,7 @@ def print_state():
         print_screen_center("G A M E   O V E R", FONT_COLOR, 30, 150)
         game_display.blit(reset_button,[376,200])
         if player.score > high_score:
-            high_score = player.score
+            high_score_sync(player.score)
             show_hg = True
 
         if show_hg:
@@ -346,7 +363,7 @@ while True:
             entities.kill()
         for entities in cloud_gr:
             entities.kill()
-        player = Player(high_score, game_seed)
+        player = Player(get_high_score(), game_seed)
         player_gr.add(player)
         player.state = "idle"
         reset = False
