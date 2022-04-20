@@ -10,7 +10,7 @@
 ### Yêu cầu:
 
 **0. Cập nhật ngày 20/4/2022:**
-- [x] File lưu tiến trùnh người chơi (highest score)
+- [x] File lưu tiến trình người chơi (highest score)
 
 **1.Theo bài cô:**
 - [x] Thay đổi 2 ảnh liên tiếp của khủng long (dino1.png và dino2.png trong ./Asset/dino)
