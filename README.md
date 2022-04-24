@@ -10,8 +10,15 @@
 ### Yêu cầu:
 
 **0. Changelog:**
--  20/4/2022
+- 20/4/2022:
 - [x] File lưu tiến trình người chơi (highest score)
+- 24/4/2022:
+- [x] Beta DDDT: thử nghiệm nhảy dao động điều hòa của game (main-dddt.py)
+- [x] Giới hạn fps bằng pygame.display:
+```
+game_display = pygame.display.set_mode((w, h), vsync=1)
+```
+- [x] Hỗ trợ native với Mac OS (hoạt động tốt ở BigSur & Monterey (yêu cầu python 3.x))
 
 **1.Theo bài cô:**
 - [x] Thay đổi 2 ảnh liên tiếp của khủng long (dino1.png và dino2.png trong ./Asset/dino)
