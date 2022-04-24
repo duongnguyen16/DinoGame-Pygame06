@@ -6,7 +6,6 @@
 - Dino Game là một tựa game được tích hợp trong Chrome ở trường hợp không có kết nối internet
 - Tựa game gốc (chỉ mở ở Chrome hoặc ít nhất là những ứng dụng dùng nhân Chromium): [Dino Game](chrome://dino)
 
-![Preview] Đang gặp lỗi, sẽ sửa trong thời gian tới
 ### Yêu cầu:
 
 **0. Changelog:**
@@ -51,5 +50,4 @@ game_display = pygame.display.set_mode((w, h), vsync=1)
 **4. Sources:**
 - Asset: https://github.com/codewmax/chrome-dinosaur/tree/master/Assets
 - Sound: Me
-### Preview:
-Fixing
+
