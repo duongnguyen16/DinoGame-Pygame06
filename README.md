@@ -14,7 +14,7 @@
 - [x] File lưu tiến trình người chơi (highest score)
 - 24/4/2022:
 - [x] Beta DDDT: thử nghiệm nhảy dao động điều hòa của game (main-dddt.py)
-> Lưu ý! DDDT hiện tại đang chưa ổn định, bài nộp chính vẫn là main.py />
+> Lưu ý! DDDT hiện tại đang chưa ổn định, bài nộp chính vẫn là main.py
 - [x] Giới hạn fps bằng pygame.display:
 ```
 game_display = pygame.display.set_mode((w, h), vsync=1)
