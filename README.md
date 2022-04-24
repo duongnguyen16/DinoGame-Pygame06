@@ -9,7 +9,8 @@
 ![Preview] Đang gặp lỗi, sẽ sửa trong thời gian tới
 ### Yêu cầu:
 
-**0. Cập nhật ngày 20/4/2022:**
+**0. Changelog:**
+-  20/4/2022
 - [x] File lưu tiến trình người chơi (highest score)
 
 **1.Theo bài cô:**
