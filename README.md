@@ -8,6 +8,8 @@
 
 ### Yêu cầu:
 
+- Nền tảng được hỗ trợ: Windows / Linux / MacOS (11.0+, 10.0 + chưa test)
+- Yêu cầu: python3 + pygame (pip)
 **0. Changelog:**
 - 20/4/2022:
 - [x] File lưu tiến trình người chơi (highest score)
@@ -15,10 +17,13 @@
 - [x] Beta DDDT: thử nghiệm nhảy dao động điều hòa của game (main-dddt.py)
 > Lưu ý! DDDT hiện tại đang chưa ổn định, bài nộp chính vẫn là main.py
 - [x] Giới hạn fps bằng pygame.display:
-```
-game_display = pygame.display.set_mode((w, h), vsync=1)
-```
 - [x] Hỗ trợ native với Mac OS (hoạt động tốt ở BigSur & Monterey (yêu cầu python 3.x))
+- 28/4/2022:
+- [x] Fix bug kông hiện fps trong debug
+- [x] Tăng chỉ số điểm (+0.5 thay vì 0.1 như trước)
+- [x] Ngưng sử dụng vsync (tránh gặp giới hạn fps ở Windows)
+- [x] Hỗ trợ linux(test ở Ubuntu / Pop!OS)
+- Lưu ý! Ở riêng MacOS (Test ở Monterey), khung hình đang bị giới hạn ở 60 fps(lỗi) và sẽ được sửa trong thời gian tới. 
 
 **1.Theo bài cô:**
 - [x] Thay đổi 2 ảnh liên tiếp của khủng long (dino1.png và dino2.png trong ./Asset/dino)
@@ -39,13 +44,9 @@ game_display = pygame.display.set_mode((w, h), vsync=1)
 - [x] 6 trạng thái của khủng long (ngoài dino1 và dino2)
 - [x] Personal best! (Điểm cao nhất)
 - [x] File lưu tiến trùnh người chơi (highest score)
+- [x] Cải tiến nhảy của khủng long (Theo dao dộng điều hoà) - Beta
 - [ ] \(Optional) Sáng/tối trong game (cần sử dụng alpha)
-- [ ] Cải tiến nhảy của khủng long (Theo dao dộng điều hoà)
 
-**3.Bugs:**<br />
-~~Nhảy lỗi khi giữ phím [S] (cúi xuống) và [Space] (nhảy lên) làm cho Sprite trượt khỏi khung hình~~<br />
-~~Quán tính lỗi~~<br />
-~~Lặp sound khi chạm vào vật thể~~<br />
 
 **4. Sources:**
 - Asset: https://github.com/codewmax/chrome-dinosaur/tree/master/Assets
