@@ -7,12 +7,15 @@ save_game_file = open("save-game.json", "r", encoding = "utf-8")
 save_game = json.load(save_game_file)
 
 def high_score_sync(score):
-    hs = save_game['high_score']
-    print(f"[SYNC] High Score input: {score} - from file: {hs}")
-    if hs < score:
-        save_game['high_score'] = int(score)
-        save_game_replace = open("./save-game.json", "w", encoding="utf-8")
-        json.dump(save_game, save_game_replace, ensure_ascii= False)
+    global saved
+    if not saved:
+        hs = save_game['high_score']
+        print(f"[SYNC] High Score input: {score} - from file: {hs}")
+        if hs < score:
+            save_game['high_score'] = int(score)
+            save_game_replace = open("./save-game.json", "w", encoding="utf-8")
+            json.dump(save_game, save_game_replace, ensure_ascii= False)
+        saved = True
 
 
 
@@ -29,7 +32,7 @@ random.seed(game_seed)
 
 w, h = 800, 400
 
-game_display = pygame.display.set_mode((w, h))
+game_display = pygame.display.set_mode((w, h), vsync=0)
 screen = pygame.surface.Surface((w, h))
 
 # mac oc optimize
@@ -97,7 +100,7 @@ class Player(pygame.sprite.Sprite):
 
     def update(self):
         if not self.state == "start" and not self.state == "die":
-            self.score += 0.1
+            self.score += 0.5
 
         if self.score > 1000000:
             sys.exit()
@@ -197,6 +200,7 @@ player = Player(get_high_score(), game_seed)
 player_gr = pygame.sprite.Group()
 player_gr.add(player)
 
+saved = False
 
 class Obs(pygame.sprite.Sprite):
     def __init__(self):
@@ -314,7 +318,7 @@ while True:
     if player.score % 100 == 0 and not player.score == 0:
         pygame.mixer.Sound.play(coins_sound)
         pygame.mixer.music.stop()
-    #print(f"{fps} - Real: {int(clock.get_fps())}")
+    print(f"{fps} - Real: {int(clock.get_fps())}")
     game_over = player.game_over
     current = pygame.time.get_ticks()
 
@@ -371,6 +375,7 @@ while True:
         fps = 60
         game_seed = random.randrange(1, 1000000, 1) * random.randrange(1, 1000000, 1)
         print("[Dino] Game Seed:" + str(game_seed))
+        saved = False
 
     print_state()
     # print(f"Player:{len(player_gr) }- Obs:{len(obs_gr)} - Cloud:{len(cloud_gr)}")
