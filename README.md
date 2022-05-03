@@ -14,6 +14,7 @@
 - [x] Sửa các lỗi về điểm / kỉ lục / json
 - [x] Sửa lỗi FPS đối với main - dddt.py (Windows)
 - [x] Encrypt Source Code (Decrypt SC .exe)
+- [x] Thêm tính năng tốc độ chạy tỉ lệ với số điểm hiện có (Windows Supported) 
 - 20/4/2022:
 - [x] File lưu tiến trình người chơi (highest score)
 - 24/4/2022:
