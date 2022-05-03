@@ -2,19 +2,18 @@
 > For educational purposes, not for economic purposes<br />
 > Language: Vi<br />
 > Preview at the end of this post<br />
+> Supported OS: Windows / Mac OS (11.0+) / Linux <br />
 ## Giới thiệu:
 - Dino Game là một tựa game được tích hợp trong Chrome ở trường hợp không có kết nối internet
 - Tựa game gốc (chỉ mở ở Chrome hoặc ít nhất là những ứng dụng dùng nhân Chromium): [Dino Game](chrome://dino)
 
 ### Yêu cầu:
 
-- Nền tảng được hỗ trợ: Windows / Linux / MacOS (11.0+, 10.0 + chưa test)
-- Yêu cầu: python3 + pygame (pip)
-- **0. Changelog:**
+**0. Changelog:**
 - 03/5/2022:
 - [x] Sửa các lỗi về điểm / kỉ lục / json
 - [x] Sửa lỗi FPS đối với main - dddt.py (Windows)
-- [x] Encrypt Source Code
+- [x] Encrypt Source Code (Decrypt SC .exe)
 - 20/4/2022:
 - [x] File lưu tiến trình người chơi (highest score)
 - 24/4/2022:
