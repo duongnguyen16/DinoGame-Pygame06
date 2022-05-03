@@ -11,6 +11,10 @@
 - Nền tảng được hỗ trợ: Windows / Linux / MacOS (11.0+, 10.0 + chưa test)
 - Yêu cầu: python3 + pygame (pip)
 **0. Changelog:**
+- 03/5/2022:
+- [x] Sửa các lỗi về điểm / kỉ lục / json
+- [x] Sửa lỗi FPS đối với main - dddt.py (Windows)
+- [x] Encrypt Source Code
 - 20/4/2022:
 - [x] File lưu tiến trình người chơi (highest score)
 - 24/4/2022:
