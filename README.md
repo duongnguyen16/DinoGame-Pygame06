@@ -10,11 +10,6 @@
 ### Yêu cầu:
 
 **0. Changelog:**
-- 03/5/2022:
-- [x] Sửa các lỗi về điểm / kỉ lục / json
-- [x] Sửa lỗi FPS đối với main - dddt.py (Windows)
-- [x] Encrypt Source Code (Decrypt SC .exe)
-- [x] Thêm tính năng tốc độ chạy tỉ lệ với số điểm hiện có (Windows Supported) 
 - 20/4/2022:
 - [x] File lưu tiến trình người chơi (highest score)
 - 24/4/2022:
@@ -28,6 +23,11 @@
 - [x] Ngưng sử dụng vsync (tránh gặp giới hạn fps ở Windows)
 - [x] Hỗ trợ linux(test ở Ubuntu / Pop!OS)
 - Lưu ý! Ở riêng MacOS (Test ở Monterey), khung hình đang bị giới hạn ở 60 fps(lỗi) và sẽ được sửa trong thời gian tới. 
+- 03/5/2022:
+- [x] Sửa các lỗi về điểm / kỉ lục / json
+- [x] Sửa lỗi FPS đối với main - dddt.py (Windows)
+- [x] Encrypt Source Code (Decrypt SC .exe)
+- [x] Thêm tính năng tốc độ chạy tỉ lệ với số điểm hiện có (Windows Supported) 
 
 **1.Theo bài cô:**
 - [x] Thay đổi 2 ảnh liên tiếp của khủng long (dino1.png và dino2.png trong ./Asset/dino)
