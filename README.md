@@ -10,6 +10,17 @@
 ### Yêu cầu:
 
 **0. Changelog:**
+- 05/06/2022 *(The Final Version, may be)*:
+- [x] Thêm chế độ Debug [F3] [F4]
+- [x] Sửa lỗi animation bird, duck
+- [x] Sửa lỗi trùng vật thể spawn (có thể)
+- [x] Huỷ bỏ DDDT do không hợp với phương trình nhảy
+- [x] Tắt decrypt, encrypt
+- [x] Chỉnh sử tốc độ, cân bằng
+- [x] Chức năng chạy nhanh theo số điểm đã được sửa (đối với tất cả hệ điều hành)
+- [x] Khoá game ở 60 fps (sử dụng phương thức chạy nhanh khác vì độ ổn định kém)
+- [x] Sử dụng .exe để chạy trên Windows, MacOS cần Source Code
+- [x] Darkmode (Dev Unlocked Only)  
 - 20/4/2022:
 - [x] File lưu tiến trình người chơi (highest score)
 - 24/4/2022:
