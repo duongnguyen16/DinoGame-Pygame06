@@ -10,11 +10,11 @@
 ### Yêu cầu:
 
 **0. Changelog:**
-- 05/06/2022 *(The Final Version, may be)*:
+- 05/06/2022 *(The Final Version, may be) LTS*:
 - [x] Thêm chế độ Debug [F3] [F4]
 - [x] Sửa lỗi animation bird, duck
 - [x] Sửa lỗi trùng vật thể spawn (có thể)
-- [x] Huỷ bỏ DDDT do không hợp với phương trình nhảy
+- [x] Huỷ bỏ DDDT do không phù hợp
 - [x] Tắt decrypt, encrypt
 - [x] Chỉnh sử tốc độ, cân bằng
 - [x] Chức năng chạy nhanh theo số điểm đã được sửa (đối với tất cả hệ điều hành)
@@ -23,22 +23,22 @@
 - [x] Darkmode (Dev Unlocked Only)  
 - 20/4/2022:
 - [x] File lưu tiến trình người chơi (highest score)
-- 24/4/2022:
-- [x] Beta DDDT: thử nghiệm nhảy dao động điều hòa của game (main-dddt.py)
-> Lưu ý! DDDT hiện tại đang chưa ổn định, bài nộp chính vẫn là main.py
-- [x] Giới hạn fps bằng pygame.display:
-- [x] Hỗ trợ native với Mac OS (hoạt động tốt ở BigSur & Monterey (yêu cầu python 3.x))
-- 28/4/2022:
-- [x] Fix bug kông hiện fps trong debug
-- [x] Tăng chỉ số điểm (+0.5 thay vì 0.1 như trước)
-- [x] Ngưng sử dụng vsync (tránh gặp giới hạn fps ở Windows)
-- [x] Hỗ trợ linux(test ở Ubuntu / Pop!OS)
-- Lưu ý! Ở riêng MacOS (Test ở Monterey), khung hình đang bị giới hạn ở 60 fps(lỗi) và sẽ được sửa trong thời gian tới. 
 - 03/5/2022:
 - [x] Sửa các lỗi về điểm / kỉ lục / json
 - [x] Sửa lỗi FPS đối với main - dddt.py (Windows)
 - [x] Encrypt Source Code (Decrypt SC .exe)
 - [x] Thêm tính năng tốc độ chạy tỉ lệ với số điểm hiện có (Windows Supported) 
+- 28/4/2022:
+- [x] Fix bug kông hiện fps trong debug
+- [x] Tăng chỉ số điểm (+0.5 thay vì 0.1 như trước)
+- [x] Ngưng sử dụng vsync (tránh gặp giới hạn fps ở Windows)
+- [x] Hỗ trợ linux(test ở Ubuntu / Pop!OS)
+- Lưu ý! Ở riêng MacOS (Test ở Monterey), khung hình đang bị giới hạn ở 60 fps(lỗi) và sẽ được sửa trong thời gian tới.
+- 24/4/2022:
+- [x] Beta DDDT: thử nghiệm nhảy dao động điều hòa của game (main-dddt.py)
+> Lưu ý! DDDT hiện tại đang chưa ổn định, bài nộp chính vẫn là main.py
+- [x] Giới hạn fps bằng pygame.display:
+- [x] Hỗ trợ native với Mac OS (hoạt động tốt ở BigSur & Monterey (yêu cầu python 3.x)) 
 
 **1.Theo bài cô:**
 - [x] Thay đổi 2 ảnh liên tiếp của khủng long (dino1.png và dino2.png trong ./Asset/dino)
