@@ -2,7 +2,7 @@
 > For educational purposes, not for economic purposes<br />
 > Language: Vi<br />
 > Preview at the end of this post<br />
-> Supported OS: Windows / Mac OS (11.0+) / Linux <br />
+> Supported OS: Windows / Mac OS (python3) / Linux <br />
 ## Giới thiệu:
 - Dino Game là một tựa game được tích hợp trong Chrome ở trường hợp không có kết nối internet
 - Tựa game gốc (chỉ mở ở Chrome hoặc ít nhất là những ứng dụng dùng nhân Chromium): [Dino Game](chrome://dino)
