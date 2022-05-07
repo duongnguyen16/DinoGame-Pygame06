@@ -10,6 +10,11 @@
 ### Yêu cầu:
 
 **0. Changelog:**
+- 05/07/2022 *(First LTS Update)*:
+- [x] Hotfix: Tốc độ người chơi giữ nguyên ở lượt chơi sau (obs_speed error)
+- [x] Chỉnh tốc độ tăng điểm lên 0.2/frame
+- [x] Thêm Current Build Date, last_check_score ở debug
+ 
 - 05/06/2022 *(The Final Version, may be) LTS*:
 - [x] Thêm chế độ Debug [F3] [F4]
 - [x] Sửa lỗi animation bird, duck
