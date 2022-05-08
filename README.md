@@ -10,7 +10,7 @@
 ### Yêu cầu:
 
 **0. Changelog:**
-- ! LƯU Ý! MAIN.EXE ĐANG BỊ LỖI PHÁT HIỆN TROJAN Ở WINDOWS 10/11 (DEFENDER). LỖI NÀY ĐANG ĐƯỢC SỬA.
+- ! LƯU Ý! Một số máy bị lỗi trojan khi chạy main.exe (đang sửa)
 - 05/07/2022 *(First LTS Update)*:
 - [x] Hotfix: Tốc độ người chơi giữ nguyên ở lượt chơi sau (obs_speed error)
 - [x] Chỉnh tốc độ tăng điểm lên 0.2/frame
