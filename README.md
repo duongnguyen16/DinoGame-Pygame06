@@ -10,6 +10,7 @@
 ### Yêu cầu:
 
 **0. Changelog:**
+- ! LƯU Ý! Một số máy bị lỗi trojan khi chạy main.exe (đang sửa)
 - 05/07/2022 *(First LTS Update)*:
 - [x] Hotfix: Tốc độ người chơi giữ nguyên ở lượt chơi sau (obs_speed error)
 - [x] Chỉnh tốc độ tăng điểm lên 0.2/frame
