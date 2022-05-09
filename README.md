@@ -11,7 +11,7 @@
 
 ### 0. Changelog:
 - **! LƯU Ý! Một số máy bị lỗi trojan khi chạy main.exe (đang sửa)**
-- 09/05/2022 *(LTS 090522)*:
+- **09/05/2022 *(LTS 090522)*: **
 - [x] Thêm Custom Seed cho người chơi (Sử dụng Seed Configurator.exe)
 - [x] Thêm Seed ở debug
 - [x] Tối ưu tốc độ khủng long dựa trên số điểm
@@ -21,12 +21,12 @@
 [+] Đồng bộ điểm của main - dddt và main - old vẫn hoạt động ở save-game.json
 ```
 
-- 07/05/2022 *(First LTS Update)*:
+- **07/05/2022 *(First LTS Update)*:**
 - [x] Hotfix: Tốc độ người chơi giữ nguyên ở lượt chơi sau (obs_speed error)
 - [x] Chỉnh tốc độ tăng điểm lên 0.2/frame
 - [x] Thêm Current Build Date, last_check_score ở debug
  
-- 05/06/2022 *(The Final Version, may be) LTS*:
+- **05/06/2022 *(The Final Version, may be) LTS*:**
 - [x] Thêm chế độ Debug [F3] [F4]
 - [x] Sửa lỗi animation bird, duck
 - [x] Sửa lỗi trùng vật thể spawn (có thể)
@@ -37,22 +37,21 @@
 - [x] Khoá game ở 60 fps (sử dụng phương thức chạy nhanh khác vì độ ổn định kém)
 - [x] Sử dụng .exe để chạy trên Windows, MacOS cần Source Code
 - [x] Darkmode (Dev Unlocked Only)  
-- 20/4/2022:
+- **20/4/2022:**
 - [x] File lưu tiến trình người chơi (highest score)
-- 03/5/2022:
+- **03/5/2022:**
 - [x] Sửa các lỗi về điểm / kỉ lục / json
 - [x] Sửa lỗi FPS đối với main - dddt.py (Windows)
 - [x] Encrypt Source Code (Decrypt SC .exe)
 - [x] Thêm tính năng tốc độ chạy tỉ lệ với số điểm hiện có (Windows Supported) 
-- 28/4/2022:
+- **28/4/2022:**
 - [x] Fix bug kông hiện fps trong debug
 - [x] Tăng chỉ số điểm (+0.5 thay vì 0.1 như trước)
 - [x] Ngưng sử dụng vsync (tránh gặp giới hạn fps ở Windows)
 - [x] Hỗ trợ linux(test ở Ubuntu / Pop!OS)
 - Lưu ý! Ở riêng MacOS (Test ở Monterey), khung hình đang bị giới hạn ở 60 fps(lỗi) và sẽ được sửa trong thời gian tới.
-- 24/4/2022:
+- **24/4/2022**:
 - [x] Beta DDDT: thử nghiệm nhảy dao động điều hòa của game (main-dddt.py)
-> Lưu ý! DDDT hiện tại đang chưa ổn định, bài nộp chính vẫn là main.py
 - [x] Giới hạn fps bằng pygame.display:
 - [x] Hỗ trợ native với Mac OS (hoạt động tốt ở BigSur & Monterey (yêu cầu python 3.x)) 
 
