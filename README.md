@@ -9,7 +9,7 @@
 
 ### Yêu cầu:
 
-##0. Changelog:
+## 0. Changelog:
 - **! LƯU Ý! Một số máy bị lỗi trojan khi chạy main.exe (đang sửa)**
 - 09/05/2022 *(LTS 090522)*:
 - [x] Thêm Custom Seed cho người chơi (Sử dụng Seed Configurator.exe)
