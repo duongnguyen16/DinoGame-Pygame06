@@ -16,6 +16,8 @@
 - [x] Thêm Seed ở debug
 - [x] Tối ưu tốc độ khủng long dựa trên số điểm
 - [x] Sửa lỗi tự động tắt debug khi chơi lượt mới
+- *[!] main - dddt và main - old sẽ KHÔNG sử dụng được Seed Configurator. Chỉ bản main mới chạy được* 
+- *[+] Đồng bộ điểm của main - dddt và main - old vẫn hoạt động ở save-game.json* 
 
 - 07/05/2022 *(First LTS Update)*:
 - [x] Hotfix: Tốc độ người chơi giữ nguyên ở lượt chơi sau (obs_speed error)
