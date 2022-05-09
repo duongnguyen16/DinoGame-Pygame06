@@ -11,7 +11,13 @@
 
 **0. Changelog:**
 - ! LƯU Ý! Một số máy bị lỗi trojan khi chạy main.exe (đang sửa)
-- 05/07/2022 *(First LTS Update)*:
+- 09/05/2022 *(LTS 090522)*:
+- [x] Thêm Custom Seed cho người chơi (Sử dụng Seed Configurator.exe)
+- [x] Thêm Seed ở debug
+- [x] Tối ưu tốc độ khủng long dựa trên số điểm
+- [x] Sửa lỗi tự động tắt debug khi chơi lượt mới
+
+- 07/05/2022 *(First LTS Update)*:
 - [x] Hotfix: Tốc độ người chơi giữ nguyên ở lượt chơi sau (obs_speed error)
 - [x] Chỉnh tốc độ tăng điểm lên 0.2/frame
 - [x] Thêm Current Build Date, last_check_score ở debug
