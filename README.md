@@ -11,7 +11,8 @@
 
 ### 0. Changelog:
 - ! LƯU Ý! Một số máy bị lỗi trojan khi chạy main.exe (đang sửa)
-- **09/05/2022 (LTS 090522): **
+- 
+- **09/05/2022 (LTS 090522):**
 - [x] Thêm Custom Seed cho người chơi (Sử dụng Seed Configurator.exe)
 - [x] Thêm Seed ở debug
 - [x] Tối ưu tốc độ khủng long dựa trên số điểm
@@ -75,7 +76,6 @@
 - [x] Personal best! (Điểm cao nhất)
 - [x] File lưu tiến trùnh người chơi (highest score)
 - [x] Cải tiến nhảy của khủng long (Theo dao dộng điều hoà) - Beta
-- [ ] \(Optional) Sáng/tối trong game (cần sử dụng alpha)
 
 
 ### 3. Sources:
