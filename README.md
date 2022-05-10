@@ -10,7 +10,13 @@
 ## Yêu cầu:
 
 ### 0. Changelog:
-- 
+- **10/5/2022 LTS 100522 (1.1.3):**
+- [x] Thay thế Seed Configurator bằng Configurator 
+- [x] Configurator sử dụng GUI, thêm Dev Mode để thử nghiệm những tính năng mới
+- [x] Chỉ sử dụng [F3] để debug
+```
+[+] Thử nghiệm: Mở khoá FPS cho game (chưa hoạt động)
+```
 - **9/5/2022 LTS 090522 (1.1.2):**
 - [x] Thêm Custom Seed cho người chơi (Sử dụng Seed Configurator.exe)
 - [x] Thêm Seed ở debug
