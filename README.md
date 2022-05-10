@@ -14,6 +14,7 @@
 - [x] Thay thế Seed Configurator bằng Configurator 
 - [x] Configurator sử dụng GUI, thêm Dev Mode để thử nghiệm những tính năng mới
 - [x] Chỉ sử dụng [F3] để debug
+- [x] Thêm lock_fps, dev, version và debug-hotkey trong save_game.json 
 ```
 [+] Thử nghiệm: Mở khoá FPS cho game (chưa hoạt động)
 ```
