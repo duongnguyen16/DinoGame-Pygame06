@@ -10,6 +10,15 @@
 ## Yêu cầu:
 
 ### 0. Changelog:
+
+- **10/5/2022 LTS 100522 (1.1.3):**
+- [x] Darkmode được kích hoạt ở Configurator.exe
+- [x] Các Variable sẽ ấn khi người chơi không ở Dev mode
+```
+[+] Thử nghiệm: Darkmode
+[+] Debug-hotkey: Thêm [F2] để chỉnh light/dark liên tục
+```
+
 - **10/5/2022 LTS 100522 (1.1.3):**
 - [x] Thay thế Seed Configurator bằng Configurator 
 - [x] Configurator sử dụng GUI, thêm Dev Mode để thử nghiệm những tính năng mới
