@@ -11,7 +11,7 @@
 
 ### 0. Changelog:
 
-- **10/5/2022 LTS 100522 (1.1.3):**
+- **15/5/2022 LTS 100522 (1.1.3):**
 - [x] Darkmode được kích hoạt ở Configurator.exe
 - [x] Các Variable sẽ ấn khi người chơi không ở Dev mode
 ```
